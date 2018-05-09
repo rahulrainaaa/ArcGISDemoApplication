@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.esri.android.map.MapView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        mapoptions.MapType="Topo"
+        mapoptions.ZoomLevel="16"
+        mapoptions.center="34.056215, -117.195668"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+
+</LinearLayout>
